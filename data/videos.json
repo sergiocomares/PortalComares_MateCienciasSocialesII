@@ -1,0 +1,27 @@
+{
+  "bloques": [
+    {
+      "id": "matrices",
+      "numero": "01",
+      "nombre": "Matrices y determinantes",
+      "videos": []
+    },
+    {
+      "id": "sistemas",
+      "numero": "02",
+      "nombre": "Sistemas de ecuaciones",
+      "videos": []
+    },
+    {
+      "id": "programacion-lineal",
+      "numero": "03",
+      "nombre": "Programación lineal",
+      "videos": []
+    },
+    { "id": "funciones", "numero": "04", "nombre": "Funciones", "videos": [] },
+    { "id": "derivadas", "numero": "05", "nombre": "Derivadas", "videos": [] },
+    { "id": "integrales", "numero": "06", "nombre": "Integrales", "videos": [] },
+    { "id": "probabilidad", "numero": "07", "nombre": "Probabilidad", "videos": [] },
+    { "id": "estadistica", "numero": "08", "nombre": "Estadística", "videos": [] }
+  ]
+}
