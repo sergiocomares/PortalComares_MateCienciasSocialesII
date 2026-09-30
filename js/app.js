@@ -28,6 +28,12 @@ function getYouTubeId(url = "") {
   return match ? match[1] : null;
 }
 
+function getVideoSource(video) {
+  return video.origen === "profesor"
+    ? { label: video.autor ? `Vídeo de ${video.autor}` : "Vídeo de otro profesor", className: "video-source--teacher" }
+    : { label: "Sergio Jodral", className: "video-source--own" };
+}
+
 function renderHome() {
   const cards = blocks.map((block) => `
     <button class="block-card" type="button" data-block-id="${escapeHtml(block.id)}">
@@ -57,6 +63,17 @@ function renderHome() {
         <p class="section-note">Selecciona un bloque para ver sus resoluciones.</p>
       </div>
       <div class="block-grid">${cards}</div>
+    </section>
+    <section class="exam-resources" aria-labelledby="exam-resources-title">
+      <div>
+        <p class="eyebrow">Material de consulta</p>
+        <h2 id="exam-resources-title">Exámenes de otros años</h2>
+        <p>Consulta enunciados y modelos de convocatorias anteriores.</p>
+      </div>
+      <div class="exam-links">
+        <a class="exam-link" href="https://www.emestrada.org/" target="_blank" rel="noopener noreferrer">EM Estrada <span aria-hidden="true">↗</span></a>
+        <a class="exam-link" href="https://selectividad.intergranada.com/" target="_blank" rel="noopener noreferrer">Selectividad Intergranada <span aria-hidden="true">↗</span></a>
+      </div>
     </section>`;
 
   document.querySelectorAll("[data-block-id]").forEach((card) => {
@@ -126,9 +143,11 @@ function renderVideos(videos) {
   }
   container.innerHTML = videos.map((video) => {
     const videoId = getYouTubeId(video.youtube);
+    const source = getVideoSource(video);
+    const sourceLogo = video.origen === "profesor" ? "" : '<img class="video-source-logo" src="assets/logojodralmates.png" alt="Jodralmates">';
     const thumbnail = videoId ? `<img src="https://i.ytimg.com/vi/${encodeURIComponent(videoId)}/hqdefault.jpg" alt="Miniatura de ${escapeHtml(video.title)}">` : "";
     return `<article class="video-card">
-      <div class="video-thumb">${thumbnail}<span>${videoId ? "Resolución PEvAU" : "Miniatura de YouTube"}</span></div>
+      <div class="video-thumb">${thumbnail}<span class="video-source ${source.className}">${sourceLogo}<span class="video-source-label">${escapeHtml(source.label)}</span></span><span class="video-type">${videoId ? "Resolución PEvAU" : "Miniatura de YouTube"}</span></div>
       <div class="video-body">
         <p class="video-meta">${escapeHtml(video.year)} · ${escapeHtml(video.convocatoria)}</p>
         <h3>${escapeHtml(video.title)}</h3>

@@ -19,7 +19,21 @@
       "videos": []
     },
     { "id": "funciones", "numero": "04", "nombre": "Funciones", "videos": [] },
-    { "id": "derivadas", "numero": "05", "nombre": "Derivadas", "videos": [] },
+    {
+      "id": "derivadas",
+      "numero": "05",
+      "nombre": "Derivadas",
+      "videos": [
+        {
+          "year": "2019",
+          "convocatoria": "Material de apoyo",
+          "title": "Derivadas",
+          "description": "Vídeo de apoyo sobre derivadas.",
+          "youtube": "https://www.youtube.com/watch?v=Vt-bKMl2YLc",
+          "origen": "sergio"
+        }
+      ]
+    },
     { "id": "integrales", "numero": "06", "nombre": "Integrales", "videos": [] },
     { "id": "probabilidad", "numero": "07", "nombre": "Probabilidad", "videos": [] },
     { "id": "estadistica", "numero": "08", "nombre": "Estadística", "videos": [] }

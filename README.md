@@ -12,11 +12,30 @@ Toda la información está en `data/videos.json`. Para añadir un vídeo, locali
   "convocatoria": "Junio",
   "title": "Ejercicio de programación lineal",
   "description": "Resolución paso a paso",
-  "youtube": "https://www.youtube.com/watch?v=ID_REAL_DEL_VIDEO"
+  "youtube": "https://www.youtube.com/watch?v=ID_REAL_DEL_VIDEO",
+  "origen": "sergio"
 }
 ```
 
 No es necesario modificar HTML, CSS ni JavaScript. La portada calculará el número de vídeos y la ficha aparecerá con filtros y buscador. Si la URL es válida de YouTube, se mostrará automáticamente su miniatura.
+
+### Sello de procedencia
+
+Cada tarjeta muestra un sello sobre la miniatura. Usa `"origen": "sergio"` para los vídeos del profesor Sergio Jodral. Para un vídeo de otro docente de YouTube, usa `"origen": "profesor"` e indica su nombre en `autor`:
+
+```json
+{
+  "year": "2026",
+  "convocatoria": "Junio",
+  "title": "Ejercicio resuelto por otro profesor",
+  "description": "Resolución paso a paso",
+  "youtube": "https://www.youtube.com/watch?v=ID_REAL_DEL_VIDEO",
+  "origen": "profesor",
+  "autor": "Nombre del profesor"
+}
+```
+
+Si no se especifica `origen`, el vídeo se mostrará como propio.
 
 ## Añadir o editar bloques
 
