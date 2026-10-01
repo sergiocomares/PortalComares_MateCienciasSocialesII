@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^node -e \"JSON\\.parse\\(require\\('fs'\\)\\.readFileSync\\('data/videos\\.json','utf8'\\)\\); console\\.log\\('videos\\.json válido'\\)\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
