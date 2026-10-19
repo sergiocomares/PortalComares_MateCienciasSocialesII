@@ -73,6 +73,7 @@ function renderHome() {
       <div class="exam-links">
         <a class="exam-link" href="https://www.emestrada.org/" target="_blank" rel="noopener noreferrer">EM Estrada <span aria-hidden="true">↗</span></a>
         <a class="exam-link" href="https://selectividad.intergranada.com/" target="_blank" rel="noopener noreferrer">Selectividad Intergranada <span aria-hidden="true">↗</span></a>
+        <a class="exam-link" href="https://farmeandopau.com/examenes/andalucia/matematicas-ccss/" target="_blank" rel="noopener noreferrer">Farmeando PAU <span aria-hidden="true">↗</span></a>
       </div>
     </section>`;
 

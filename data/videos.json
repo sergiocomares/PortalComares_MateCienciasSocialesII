@@ -55,7 +55,62 @@
       "id": "sistemas",
       "numero": "02",
       "nombre": "Sistemas de ecuaciones",
-      "videos": []
+      "videos": [
+        {
+          "year": "2025",
+          "convocatoria": "Reserva",
+          "title": "Andalucía 2025 Reserva · Bloque A · Ejercicio 1",
+          "description": "Resolución del ejercicio 1 del bloque A de Matemáticas Aplicadas a las Ciencias Sociales II.",
+          "youtube": "https://youtu.be/lihsvAiEBHo?si=7iXHLIkAYOgBO606",
+          "origen": "profesor",
+          "autor": "Universo Mates (Eva Bravo)"
+        },
+        {
+          "year": "2025",
+          "convocatoria": "Propuestos",
+          "title": "Andalucía 2025 Propuestos · Sistemas de ecuaciones · Ejercicio 1",
+          "description": "Resolución de un ejercicio propuesto de sistemas de ecuaciones de Matemáticas Aplicadas a las Ciencias Sociales II.",
+          "youtube": "https://www.youtube.com/watch?v=YLJhmwNYqaU&list=PLjuxVyHPn-xBQ0Uk30uJpZl-ltqmqRBJi",
+          "origen": "profesor",
+          "autor": "Universo Mates (Eva Bravo)"
+        },
+        {
+          "year": "2025",
+          "convocatoria": "Propuestos",
+          "title": "Andalucía 2025 Propuestos · Sistemas de ecuaciones · Ejercicio 2",
+          "description": "Resolución de un ejercicio propuesto de sistemas de ecuaciones de Matemáticas Aplicadas a las Ciencias Sociales II.",
+          "youtube": "https://youtu.be/tay4VHog3ig?si=Jtuu8-o9SroZL0XB",
+          "origen": "profesor",
+          "autor": "Universo Mates (Eva Bravo)"
+        },
+        {
+          "year": "2025",
+          "convocatoria": "Propuestos",
+          "title": "Andalucía 2025 Propuestos · Sistemas de ecuaciones · Ejercicio 3",
+          "description": "Resolución de un ejercicio propuesto de sistemas de ecuaciones de Matemáticas Aplicadas a las Ciencias Sociales II.",
+          "youtube": "https://www.youtube.com/watch?v=LxpvRhtqxcY&list=PLjuxVyHPn-xBQ0Uk30uJpZl-ltqmqRBJi&index=3",
+          "origen": "profesor",
+          "autor": "Universo Mates (Eva Bravo)"
+        },
+        {
+          "year": "2025",
+          "convocatoria": "Propuestos",
+          "title": "Andalucía 2025 Propuestos · Sistemas de ecuaciones · Ejercicio 4",
+          "description": "Resolución de un ejercicio propuesto de sistemas de ecuaciones de Matemáticas Aplicadas a las Ciencias Sociales II.",
+          "youtube": "https://www.youtube.com/watch?v=7qo-fKTRr2I&list=PLjuxVyHPn-xBQ0Uk30uJpZl-ltqmqRBJi&index=4",
+          "origen": "profesor",
+          "autor": "Universo Mates (Eva Bravo)"
+        },
+        {
+          "year": "2025",
+          "convocatoria": "Propuestos",
+          "title": "Andalucía 2025 Propuestos · Sistemas de ecuaciones · Ejercicio 5",
+          "description": "Resolución de un ejercicio propuesto de sistemas de ecuaciones de Matemáticas Aplicadas a las Ciencias Sociales II.",
+          "youtube": "https://www.youtube.com/watch?v=Dm85USL5WkI&list=PLjuxVyHPn-xBQ0Uk30uJpZl-ltqmqRBJi&index=5&pp=iAQB",
+          "origen": "profesor",
+          "autor": "Universo Mates (Eva Bravo)"
+        }
+      ]
     },
     {
       "id": "programacion-lineal",
