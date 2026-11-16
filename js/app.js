@@ -74,6 +74,7 @@ function renderHome() {
         <a class="exam-link" href="https://www.emestrada.org/" target="_blank" rel="noopener noreferrer">EM Estrada <span aria-hidden="true">↗</span></a>
         <a class="exam-link" href="https://selectividad.intergranada.com/" target="_blank" rel="noopener noreferrer">Selectividad Intergranada <span aria-hidden="true">↗</span></a>
         <a class="exam-link" href="https://farmeandopau.com/examenes/andalucia/matematicas-ccss/" target="_blank" rel="noopener noreferrer">Farmeando PAU <span aria-hidden="true">↗</span></a>
+        <a class="exam-link" href="https://blogsaverroes.juntadeandalucia.es/rafaelnunezmat/selectividad" target="_blank" rel="noopener noreferrer">PEVAU Rafael Núñez <span aria-hidden="true">↗</span></a>
       </div>
     </section>`;
 
