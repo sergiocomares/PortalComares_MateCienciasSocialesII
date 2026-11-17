@@ -116,7 +116,35 @@
       "id": "programacion-lineal",
       "numero": "03",
       "nombre": "Programación lineal",
-      "videos": []
+      "videos": [
+        {
+          "year": "2021",
+          "convocatoria": "Junio",
+          "title": "Andalucía 2021 Junio",
+          "description": "Resolución del ejercicio de programación lineal.",
+          "youtube": "https://youtu.be/LjGrJLt5AlE?si=seVjXLNA_uQGb7Kr",
+          "origen": "profesor",
+          "autor": "Universo Mates (Eva Bravo)"
+        },
+        {
+          "year": "2023",
+          "convocatoria": "Material de apoyo",
+          "title": "Programación lineal 2023",
+          "description": "Resolución del ejercicio de programación lineal.",
+          "youtube": "https://youtu.be/O_WxRu53EPc?si=-_4-egXW38B0JQNr",
+          "origen": "profesor",
+          "autor": "Universo Mates (Eva Bravo)"
+        },
+        {
+          "year": "2024",
+          "convocatoria": "Junio",
+          "title": "Andalucía 2024 Junio",
+          "description": "Resolución del ejercicio de programación lineal.",
+          "youtube": "https://youtu.be/n5Opxu3Wftk?si=eW3tZZT_ThUfHUHy",
+          "origen": "profesor",
+          "autor": "Universo Mates (Eva Bravo)"
+        }
+      ]
     },
     { "id": "funciones", "numero": "04", "nombre": "Funciones", "videos": [] },
     {
