@@ -80,12 +80,14 @@ h2 { margin-bottom: 0; font-size: 1.5rem; letter-spacing: 0; }
 .video-count { color: var(--muted); }
 .card-link { margin-top: 20px; color: var(--primary); font: 500 12px "DM Mono", monospace; letter-spacing: .04em; text-transform: uppercase; }
 .exam-resources { display: flex; align-items: end; justify-content: space-between; gap: 32px; margin-top: 52px; padding: 28px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
-.exam-resources .eyebrow { margin-bottom: 10px; }
+.exam-resources .eyebrow { margin-bottom: 10px; font-size: 15px; font-weight: 700; }
 .exam-resources h2 { margin-bottom: 8px; }
 .exam-resources p:not(.eyebrow) { margin-bottom: 0; color: var(--muted); }
 .exam-links { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 10px; }
 .exam-link { display: inline-flex; align-items: center; gap: 10px; min-height: 42px; padding: 0 13px; border: 1px solid var(--primary); border-radius: 4px; color: var(--primary); font: 500 12px "DM Mono", monospace; letter-spacing: .04em; text-decoration: none; text-transform: uppercase; }
 .exam-link:hover, .exam-link:focus-visible { color: var(--surface); background: var(--primary); outline: none; }
+.exam-link--featured { color: var(--surface); background: var(--primary); font-weight: 700; }
+.exam-link--featured:hover, .exam-link--featured:focus-visible { color: var(--primary); background: var(--surface); }
 
 .back-link { display: inline-flex; align-items: center; gap: 8px; padding: 0; margin-bottom: 38px; border: 0; color: var(--primary); background: transparent; font-weight: 800; }
 .block-title { max-width: 720px; margin-bottom: 8px; font-size: clamp(2.2rem, 5vw, 4.3rem); line-height: 1; text-transform: uppercase; }

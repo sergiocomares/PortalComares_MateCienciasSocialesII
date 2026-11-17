@@ -57,13 +57,6 @@ function renderHome() {
         <img src="assets/logo-centro.png.png" alt="Logo oficial del IES Marqués de Comares">
       </div>
     </section>
-    <section aria-labelledby="blocks-title">
-      <div class="content-head">
-        <h2 id="blocks-title">Ejercicios PEvAU</h2>
-        <p class="section-note">Selecciona un bloque para ver sus resoluciones.</p>
-      </div>
-      <div class="block-grid">${cards}</div>
-    </section>
     <section class="exam-resources" aria-labelledby="exam-resources-title">
       <div>
         <p class="eyebrow">Material de consulta</p>
@@ -71,11 +64,18 @@ function renderHome() {
         <p>Consulta enunciados y modelos de convocatorias anteriores.</p>
       </div>
       <div class="exam-links">
-        <a class="exam-link" href="https://www.emestrada.org/" target="_blank" rel="noopener noreferrer">EM Estrada <span aria-hidden="true">↗</span></a>
+        <a class="exam-link exam-link--featured" href="https://www.emestrada.org/" target="_blank" rel="noopener noreferrer">EM Estrada <span aria-hidden="true">↗</span></a>
         <a class="exam-link" href="https://selectividad.intergranada.com/" target="_blank" rel="noopener noreferrer">Selectividad Intergranada <span aria-hidden="true">↗</span></a>
         <a class="exam-link" href="https://farmeandopau.com/examenes/andalucia/matematicas-ccss/" target="_blank" rel="noopener noreferrer">Farmeando PAU <span aria-hidden="true">↗</span></a>
-        <a class="exam-link" href="https://blogsaverroes.juntadeandalucia.es/rafaelnunezmat/selectividad" target="_blank" rel="noopener noreferrer">PEVAU Rafael Núñez <span aria-hidden="true">↗</span></a>
+        <a class="exam-link exam-link--featured" href="https://blogsaverroes.juntadeandalucia.es/rafaelnunezmat/selectividad" target="_blank" rel="noopener noreferrer">PEVAU Rafael Núñez <span aria-hidden="true">↗</span></a>
       </div>
+    </section>
+    <section aria-labelledby="blocks-title">
+      <div class="content-head">
+        <h2 id="blocks-title">Ejercicios PEvAU</h2>
+        <p class="section-note">Selecciona un bloque para ver sus resoluciones.</p>
+      </div>
+      <div class="block-grid">${cards}</div>
     </section>`;
 
   document.querySelectorAll("[data-block-id]").forEach((card) => {
